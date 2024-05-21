@@ -12,10 +12,14 @@ To be clear, project filesize has been minimized to the exclusion of all else. I
 
 It is specced for UE4, but it will load in ue5 just fine.
 
-It stands at a whopping 13.5kb of etherial vapour of a project (to open in editor), and will jump to just 4.93mb on first run in the latest UE4.7.2 editor and builds to 55.8MB of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum.
+# A word to the wise
 
-Haha, you thought this had sound drivers? You are in the wrong place, camper. Turn around.
+You only actually need the uproject file and the config directory, in principle. That stands at a whopping 13.5kb of etherial vapour of a project (to open in editor), and will jump to just 4.93mb on first run in the latest UE4.7.2 editor.
 
-(I mean you can always add this stuff, however) This is barely usable, but was a lot of fun to deep dive into. You have been warned.
+The project with all files included sits at a still outrageous 1.8mb, and contains some files such as the inital map file that actually reduce package size. (Everything pointing to an empty map stops nonsense being generated later). I didnt release these initially, but i've just commited them all. I'm not sure most of these are needed and may reduce the size further if removed, but not the final build size.
+
+The final packaged and executable build zips to 39mb (39,018kb), and goes to 99.7MB in 64bit of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum after publishing.
+
+This is barely usable, but was a lot of fun to deep dive into. You have been warned.
 
 If you make something with this, please let me know! I'd love to see it!

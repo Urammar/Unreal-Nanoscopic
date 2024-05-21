@@ -12,7 +12,7 @@ To be clear, project filesize has been minimized to the exclusion of all else. I
 
 It is specced for UE4, but it will load in ue5 just fine.
 
-It stands at 93.5MB of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum.
+It stands at 55.8MB of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum.
 
 This is barely usable, but was a lot of fun to deep dive into. You have been warned.
 

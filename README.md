@@ -12,7 +12,7 @@ To be clear, project filesize has been minimized to the exclusion of all else. I
 
 It is specced for UE4, but it will load in ue5 just fine.
 
-It stands at a whopping 13.5kb of etherial vapour of a project (to open in editor) and builds to 55.8MB of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum.
+It stands at a whopping 13.5kb of etherial vapour of a project (to open in editor), and will jump to just 4.93mb on first run in the latest UE4.7.2 editor and builds to 55.8MB of barebones infrastucture, sound drivers, shader code and hopes and dreams held together with a stick of gum.
 
 Haha, you thought this had sound drivers? You are in the wrong place, camper. Turn around.
 
